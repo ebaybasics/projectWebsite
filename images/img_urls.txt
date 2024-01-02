@@ -1,0 +1,3 @@
+med_dish: https://www.allrecipes.com/recipe/268999/mediterranean-chicken-sheet-pan-dinner/
+veg_pizza: https://www.allrecipes.com/recipe/27006/vegetable-pizza-squares/
+pot_soup: https://www.allrecipes.com/recipe/13218/absolutely-ultimate-potato-soup/
