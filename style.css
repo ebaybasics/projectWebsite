@@ -1,5 +1,6 @@
 .title {
     color: blue;
+    text-align: center;
 }
 
 .cardWindow {
@@ -10,18 +11,11 @@
     align-self: center;
 }
 
-/* .cardWindow :first-child {
-    align-self: center;
-} */
-/* 
-.mainWindow {
-    display: flex;
-} */
+
 .card {
 
 
 }
-
 
 .descriptivePic {
     min-height: 150px;
@@ -34,6 +28,7 @@
 
 .picName {
     margin: 20px;
+    text-align: center;
 
 }
 
