@@ -19,7 +19,7 @@
 
 .descriptivePic {
     min-height: 150px;
-    padding: 100px;
+    padding: 50px;
 }
 
 .mainWindow {
@@ -29,10 +29,18 @@
 .picName {
     margin: 20px;
     text-align: center;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
 
 }
 
 .infoBox {
     margin: 30px;
     min-height: 100px;
+    text-align: center;
+}
+
+.image {
+    height: 300px;
+    width: 200px;
 }
