@@ -2,18 +2,42 @@
     color: blue;
 }
 
+.cardWindow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 200px;
+    align-self: center;
+}
+
+/* .cardWindow :first-child {
+    align-self: center;
+} */
+/* 
+.mainWindow {
+    display: flex;
+} */
 .card {
+
 
 }
 
-.descriptivePic {
 
+.descriptivePic {
+    min-height: 150px;
+    padding: 100px;
+}
+
+.mainWindow {
+    display: block;
 }
 
 .picName {
+    margin: 20px;
 
 }
 
 .infoBox {
-    
+    margin: 30px;
+    min-height: 100px;
 }
