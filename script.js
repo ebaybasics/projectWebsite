@@ -4,6 +4,9 @@ const title = document.querySelector('.title');
 const recipe1 = document.querySelector('.pic1');
 const recipe2 = document.querySelector('.pic2');
 const recipe3 = document.querySelector('.pic3');
+const recName1 = document.querySelector('.picName1');
+const recName2 = document.querySelector('.picName2');
+const recName3 = document.querySelector('.picName3');
 const recipeDisplay = document.querySelector('.infoBox');
 
 const rec1Text = 'Bold flavors and colors combine on one sheet pan for a simple yet impressive dinner. Bonus is the minimal cleanup!';
@@ -28,3 +31,20 @@ recipe3.addEventListener('click', (e) => {
 
 })
 
+recName1.addEventListener('click', (e) => {
+    e.preventDefault();
+    recipeDisplay.textContent = rec1Text;
+
+});
+
+recName2.addEventListener('click', (e) => {
+    e.preventDefault();
+    recipeDisplay.textContent = rec2Text;
+
+})
+
+recName3.addEventListener('click', (e) => {
+    e.preventDefault();
+    recipeDisplay.textContent = rec3Text;
+
+})
