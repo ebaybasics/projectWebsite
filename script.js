@@ -15,7 +15,7 @@ const rec3Text = 'These are made on a small baking sheet, and are absolutely del
 
 recipe1.addEventListener('click', (e) => {
     e.preventDefault();
-    recipeDisplay.textContent = rec1Text;
+    recipeDisplay.textContent = `${recName1.textContent}: ${rec1Text}`;
 
 });
 
