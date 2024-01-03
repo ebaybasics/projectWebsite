@@ -20,10 +20,12 @@
 .descriptivePic {
     min-height: 150px;
     padding: 50px;
+    margin: 5px;
 }
 
 .mainWindow {
     display: block;
+    padding: 10px;
 }
 
 .picName {
@@ -36,8 +38,11 @@
 
 .infoBox {
     margin: 30px;
-    min-height: 100px;
+    min-height: 150px;
     text-align: center;
+    background-color: rgba(255, 231, 122, 0.623);
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .image {
